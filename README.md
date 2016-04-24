@@ -12,4 +12,7 @@ Note: Please don’t use any external library or key-value store for RateLimit. 
 
 # Running the application
 
+1. Install a jar dependency
 mvn install:install-file -Dfile=./src/main/resources/csvjdbc-1.0-29.jar -DgroupId=csvjdbc -DartifactId=csvjdbc1029 -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
+
+2. >./run.sh
